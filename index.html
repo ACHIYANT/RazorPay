@@ -5,60 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hpl5trh.css">
 </head>
 <body>
 
     <!-- Nav Bar Starts -->
 
-    <nav class="bg-deepBlue font-Mulish" >
+    <nav class="bg-deepBlue fnt" >
         <div class=" w-[1080px] mx-auto flex text-white justify-between items-center">
-            <a href="#" class="py-7 pr-7 cursor-pointer">
-                <img src="./Assets/logo.svg" width="125px" height="30px" alt="RazorPay logo">
+            <a href="#" class="py-[1.75rem] pr-7 cursor-pointer">
+                <img src="./Assets/logo.svg" width="126px" height="23px" alt="RazorPay logo">
             </a>
 
             <ul class="flex gap-6 ">
-                <li class="hover:text-lightBlue transition duration-200 relative py-7 group cursor-pointer">
+                <li class="hover:text-lightBlue transition duration-200 relative py-8 group cursor-pointer">
                     <a href="#" >Payments</a>
                     <div class="w-full h-1 bg-lightBlue absolute bottom-0 transition duration-200 opacity-0 group-hover:opacity-100"></div>
                 </li>
 
-                <li class="hover:text-lightBlue relative py-7 transition duration-200 group cursor-pointer">
-                    <a href="#" >Banking</a>
+                <li class="hover:text-lightBlue relative py-8 transition duration-200 group cursor-pointer">
+                    <a href="#" >Banking+</a>
                     <div class="w-full h-1 bg-lightBlue absolute transition duration-200 bottom-0 opacity-0 group-hover:opacity-100"></div>
                 </li>
-                <li class="hover:text-lightBlue relative py-7 transition duration-200 group cursor-pointer">
-                    <a href="#" >Corporate Card</a>
+                <li class="hover:text-lightBlue relative py-8 transition duration-200 group cursor-pointer">
+                    <a href="#">Line of Credit</a>
                 </li>
-                <li class="hover:text-lightBlue relative py-7 transition duration-200 group cursor-pointer">
+                <li class="hover:text-lightBlue relative py-8 transition duration-200 group cursor-pointer">
                     <a href="#" >Payroll</a>
                 </li>
-                <li class="hover:text-lightBlue relative py-7 transition duration-200 group cursor-pointer">
+                <li class="hover:text-lightBlue relative py-8 transition duration-200 group cursor-pointer">
                     <a href="#" >Resources</a>
                     <div class="w-full h-1 bg-lightBlue absolute transition duration-200 bottom-0 opacity-0 group-hover:opacity-100"></div>
                 </li>
-                <li class="hover:text-lightBlue relative py-7 transition duration-200 group cursor-pointer">
+                <li class="hover:text-lightBlue relative py-8 transition duration-200 group cursor-pointer">
                     <a href="#" >Support</a>
                     <div class="w-full h-1 bg-lightBlue absolute transition duration-200 bottom-0 opacity-0 group-hover:opacity-100"></div>
                 </li>
-                <li class="hover:text-lightBlue relative py-7 transition duration-200 group cursor-pointer">
+                <li class="hover:text-lightBlue relative py-8 transition duration-200 group cursor-pointer">
                     <a href="#" >Pricing</a>
                     <div class="w-full h-1 bg-lightBlue absolute transition duration-200 bottom-0 opacity-0 group-hover:opacity-100"></div>
                 </li>
             </ul>
-            <div class="flex gap-4">
+            <div class="flex gap-4 items-center">
                 <img src="./Assets/india-flag.svg" width="28px" height="20px"  alt="BHARAT">
-                <button class="border border-lightBlue py-3 px-5 text-sm font-bold rounded-sm">Log in</button>
-                <button class="py-3 px-4 bg-white text-lightBlue300 flex hover:text-lightBlue500 transition duration-1000 text-sm font-bold rounded-sm items-center">
+                <button class="border border-lightBlue py-3 px-4 text-sm font-bold  rounded-sm">Log in</button>
+                <button class="py-3 px-4 bg-white text-lightBlue300 flex hover:text-lightBlue500 transition duration-200 text-sm font-bold rounded-sm items-center">
                     Sign Up
                     <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
                         <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
-                      </svg>
+                    </svg>
                 </button>
             </div>
         </div>
     </nav>
 
     <!-- Nav Bar Ends -->
+
+
+
+    <!-- Hero section start -->
+    <div class="bg-deepBlue font-Mulish h-[104vh] mb-2 clip">
+        <div class=" flex max-w-[1080px] relative mx-auto items-center flex-wrap">
+            <div class="left max-w-[27%] flex flex-col gap-8">
+                <h2 class="text-white text-[40px] leading-[1.2] font-bold">Power your finance, grow your business</h2>
+                <div class="h-[4px] w-[8%] bg-greenLight"></div>
+                <p class="text-white opacity-70 text-lg smooth">Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+                <div> 
+                    <button class="flex py-3 px-4 text-base bg-lightBlue text-white rounded-md font-bold hover:bg-lightBlue500 transition duration-200 items-center">
+                        Sign Up Now
+                        <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+                            <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="rigth w-[783px] h-[652px] flex-shrink-0 object-cover bg-center">
+                <img src="./Assets/hero-illustration.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Hero section end -->
+
+
     
 </body>
 </html>
