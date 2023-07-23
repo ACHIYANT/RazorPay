@@ -9,9 +9,13 @@
   .fnt {
     font-family: "mulish-variable", sans-serif;
     font-feature-settings: "kern";
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
   }
   .fntbold {
-    font-variation-settings: "wght" 500;
+    /* font-variation-settings: "wght" 500; */
   }
   .smooth {
     -webkit-font-smoothing: antialiased;
@@ -28,6 +32,30 @@
   }
   .gradient{
     background: linear-gradient(180deg, rgba(74, 144, 245, 0.21) -34.7%, rgba(125, 186, 244, 0.063) 100%, rgba(125, 186, 244, 0.1295) 100%);
+  }
+  .featureDiv2:hover .featureSVG2{
+    animation: boxshadow2 600ms 1;
+    filter: drop-shadow(7px 7px 12px rgb(12, 5, 5));
+  }
+  @keyframes boxshadow2 {
+
+    50%{
+      filter: drop-shadow(0px 0px 0px rgba(10, 8, 8, 0.4));
+    }
+  }
+  .bgpos{
+    background-position: -400px 0;
+  }
+  .bg0pos{
+    background-position: 0px 0px;
+  }
+
+  .no-flickr {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
   }
 
 }
