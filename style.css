@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  html{
+    -webkit-font-smoothing: antialiased;
+    font-smooth: antialiased;
+  }
   .clip {
     clip-path: polygon(0% 0%, 100% 0%, 100% 89.6%, 91.78% 96.01%, 0% 84.3%);
   }
@@ -56,6 +60,21 @@
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
     transform: translateZ(0);
+  }
+  .ani-merchant{
+    animation: merchant 28.760416666666668s linear 0s infinite;
+    animation-play-state: running;
+    animation-direction: normal;
+  }
+  
+  @keyframes merchant {
+    0%{
+      transform: translateY(0%);
+    }
+    100%{
+      transform: translateY(-100%);
+    }
+    
   }
 
 }
