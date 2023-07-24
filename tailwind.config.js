@@ -17,7 +17,15 @@ module.exports = {
         grayBlue: "#344a6c",
         deepBlueHead: "#162f56",
         gray2: "#525a76",
+        bggray: "hsla(220, 81.8%, 97.8%, 1)",
       },
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '100%': '100% 100%',
+        '16': '4rem',
+      }
     },
   },
   plugins: [],
