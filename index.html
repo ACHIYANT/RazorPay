@@ -381,7 +381,7 @@
     <!-- New section end -->
 
     <!--Features section start-->
-    <section class="bg-[url(./Assets/features-bg2.svg)] bg-no-repeat bg-100% -mt-[90px] pb-32 bg-center fnt">
+    <section class="bg-[url(./Assets/features-bg2.svg)] bg-no-repeat bg-100% z-[1] -mt-[90px] relative pb-32 bg-center fnt">
         <div class="flex justify-center pt-[12rem]">
             <div class="w-11/12 max-w-[1080px] text-white">
                 <!--Cards-->
@@ -436,31 +436,30 @@
     </section>
     <!--Features section end-->
     <!--Merchants section start-->
-    <section class="flex justify-center bg-bggray mt-[-200px] fnt" style="word-wrap: break-word;">
-        <div class="w-11/12 max-w-[1080px] max-h-[700px] flex justify-between overflow-hidden ">
+    <section class="flex justify-center bg-bggray -mt-[200px] relative" style="word-wrap: break-word;">
+        <div class="w-11/12 max-w-[1080px] max-h-[700px] flex justify-between overflow-hidden">
             <!--Left-->
-            <div class="flex flex-col max-w-[450px] pt-[18rem] gap-4 ps-4 pe-4">
-                <h3 class="text-2xl font-[600]">Join the 50,00,000+ businesses using Razorpay</h3>
+            <div class="flex flex-col max-w-[450px] pt-[18rem] gap-4 ">
+                <h3 class="text-2xl font-[800] leading-[1.2]">Join the 50,00,000+ businesses using Razorpay</h3>
                 <div class="h-[4px] w-[24px] bg-greenLight"></div>
                 <p class="mt-4  text-base">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
                 <p>Focus on your business while we handle the complexities of payments for you.</p>
-                <a class="flex py-3 w-fit px-4 text-base bg-lightBlue text-white rounded-md font-bold hover:bg-lightBlue500 transition duration-200 items-center">
-                            Get Started
-                            <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
-                                <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
-                            </svg>
-                        </a>
+                <a class="flex py-3 w-fit px-4 text-base bg-lightBlue500 text-white rounded-md font-bold hover:bg-lightBlue300 transition duration-200 items-center">
+                    Get Started
+                    <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+                        <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                    </svg>
+                </a>
             </div>
             <!--Right-->
             <div class=" overflow-hidden max-w-[450px] pt-[199px] ">
                 
                 <div class="flex flex-col overflow-hidden relative h-full">
-                    <div style="background: linear-gradient(180deg, #f4f8ff, #fff0);" class="absolute top-0 w-full h-[150px] z-10"></div>
+                    <div style=" background: linear-gradient(180deg, #f4f8ff, #fff0);" class="absolute top-0 w-full h-[150px] z-10"></div>
                     <img src="./Assets/merchants.png" class="ani-merchant " alt="">
                     <img src="./Assets/merchants.png" class="ani-merchant " alt="">
                     <div style="background: linear-gradient(0deg, #f4f8ff, #fff0);" class="absolute bottom-0 w-full h-[150px] z-10"></div>
                 </div>
-                <div></div>
             </div>
         </div>
     </section>
