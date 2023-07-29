@@ -14,6 +14,9 @@
   .clip {
     clip-path: polygon(0% 0%, 100% 0%, 100% 89.6%, 91.78% 96.01%, 0% 84.3%);
   }
+  .mdclip{
+    clip-path: polygon(0 0,100% 3%,100% 96%,0% 100%);
+  }
   .fnt {
     font-family: "mulish-variable", sans-serif;
     font-feature-settings: "kern";
@@ -56,6 +59,9 @@
   }
   .bg0pos{
     background-position: 0px 0px;
+  }
+  .bgSize2000{
+    background-size: 2000px 100%;
   }
 
   .no-flickr {
